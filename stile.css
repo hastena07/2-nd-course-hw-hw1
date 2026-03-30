@@ -356,3 +356,14 @@ a{
 	vertical-align: middle;
 	padding: 61px 578px;
 }
+@media (max-width: 767px){
+
+.center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .box-full{
+	display: none;
+  }
+
+}
