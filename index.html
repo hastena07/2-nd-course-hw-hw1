@@ -20,14 +20,16 @@
 		<img src="img/Star 2.png" alt="star" class="star-two">
 		<img src="img/Star 3.png" alt="star" class="star-free">
 		<h1 class="title"> Добро пожаловать <br> на мой сайт мини-игр</h1>
-		<p header-text>Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай «Поехали!» и
+		<p class="header-text" >Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай «Поехали!» и
 			приступай.
 		</p>
-		<button class="header-button"> Поехали!</button>
-
-	</header>
+		<a href="#smole-card_id" class="top-game">Поехали</a>
+		<!--<button class="header-button button-go" > Поехали</button>-->
+		
+	</header> 
 
 	<!--<div class="animation center">
+
 		<p class="animation-text">Викторина</p>
 		<img src="img/Starblack.png" alt="star" class="animation-star">
 		<p class="animation-text">угадай число</p>
@@ -41,73 +43,85 @@
 		<p class="animation-text">Генератор случайных цветов</p>
 		<img src="img/Starblack.png" alt="star" class="animation-star">*/
 	</div>-->
-	<section class="smole-card center">
+	<section class="smole-card center" id="smole-card_id">
 		<img src="img/Star 1.png" alt="star" class="star-one">
 		<img src="img/Star 11.png" alt="star" class="star-eleven">
 		<img src="img/Star 12.png" alt="star" class="star-twelve">
 		<p class="card-header"> Об играх</p>
-		<p class="smole-card__text"> В моей коллекции представлено 6 игр на разные темы.<br> Игры несложные — в них
-			может
-			поиграть каждый.<br>
-			Все игры доступны для пользования.</p>
-		<div class="up">
-			<div class="box-cub">
+		<p class="smole-card__text"> В моей коллекции представлено 6 игр на разные темы.<br> Игры несложные — в них	может
+		поиграть каждый.<br>
+		Все игры доступны для пользования.</p>
+		<div class="card-game">  
+			<div class="up">
+			<a href=" #">
+				<div class="box-cub">
 				<img src="img/card1.png" alt="game">
 				<div class="box-game">
 					<p class="game-namber">Игра № 1</p>
-					<a href="#" class="game-name">Угадай число</a>
+					<p class="game-name"> Угадай число</p>
 				</div>
 
-
-			</div>
-			<div class="box-cub big">
-				<img src="img/card2.png" alt="game">
-				<div class="box-game">
-					<p class="game-namber">Игра № 2</p>
-					<a href="#" class="game-name">Простая арифметика</a>
 				</div>
+			</a>
+			
+			<a href="#">
+				<div class="box-cub big">
+					<img src="img/card2.png" alt="game">
+					<div class="box-game">
+						<p class="game-namber">Игра № 2</p>
+						<p class="game-name"> Простая арифметика</p>
+					</div>
 
-
-			</div>
-			<div class="box-cub">
-				<img src="img/card3.png" alt="game">
-				<div class="box-game">
-					<p class="game-namber">Игра № 3</p>
-					<a href="#" class="game-name">Переверни текст</a>
 				</div>
-
-
+			</a>
+			
+			<a href="#">
+				<div class="box-cub">
+					<img src="img/card3.png" alt="game">
+					<div class="box-game">
+						<p class="game-namber">Игра № 3</p>
+						<p class="game-name">Переверни текст </p>
+				
+					</div>
+				</div>
+			</a>
+			
 			</div>
+			<div class="doWn">
+			<a href="#">
+				<div class="box-cub big">
+					<img src="img/card4.png" alt="game">
+					<div class="box-game">
+						<p class="game-namber">Игра № 4</p>
+						<p class="game-name">Камень, ножницы, бумага</p>
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box-cub">
+					<img src="img/card5.png" alt="grid">
+					<div class="box-game">
+						<p class="game-namber">Игра № 5</p>
+						<p class="game-name">Простая викторина</p>
+				
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box-cub big">
+					<img src="img/card6.png" alt="game">
+					<div class="box-game">
+						<p class="game-namber">Игра № 6</p>
+						<p class="game-name">Генератор случайных цветов</p>
+					
+					</div>
+
+				</div>
+			</a>
+			
+			</div> 
 		</div>
-		<div class="doWn">
-			<div class="box-cub big">
-				<img src="img/card4.png" alt="game">
-				<div class="box-game">
-					<p class="game-namber">Игра № 4</p>
-					<a href="#" class="game-name">Камень, ножницы, бумага</a>
-				</div>
-
-
-			</div>
-			<div class="box-cub">
-				<img src="img/card5.png" alt="grid">
-				<div class="box-game">
-					<p class="game-namber">Игра № 5</p>
-					<a href="#" class="game-name">Простая викторина</a>
-				</div>
-
-
-			</div>
-			<div class="box-cub big">
-				<img src="img/card6.png" alt="game">
-				<div class="box-game">
-					<p class="game-namber">Игра № 6</p>
-					<a href="#" class="game-name">Генератор случайных цветов</a>
-				</div>
-
-
-			</div>
-		</div>
+		
 
 	</section>
 
