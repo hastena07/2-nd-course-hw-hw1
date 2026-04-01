@@ -4,6 +4,9 @@
 	padding-left: calc(50% - 600px);
 	padding-right: calc(50% - 600px);
 }
+html{
+	 scroll-behavior: smooth;
+}
 body {
 	font-family: "montserrat", sans-serif;
 
@@ -80,7 +83,7 @@ select {
 	line-height: 32px;
 	letter-spacing: 0px;
 	vertical-align: middle;
-
+	margin-bottom: 48px;
 
 }
 
@@ -107,12 +110,16 @@ text-transform: uppercase;
 }*/
 .smole-card{
 	position: relative;
-	row-gap: 32px;
-	gap: 32px;
-   background-color:black;
-    width: 378;
-    height: 314;
+	background-color:black;
     opacity: 1;
+
+}
+.card-game{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 32px;
+	row-gap: 0;
+	
 
 }
 .star-one{
@@ -166,14 +173,16 @@ text-transform: uppercase;
 	vertical-align: middle;
 
 }
-.up{
+.up{grid-column: span 12;
 	margin-top: 72px;
 	display: flex;
 	gap: 32px;
 	flex-wrap: wrap;
+	z-index: 1;
 
 }
 .doWn{
+	grid-column: span 12;
 	display: flex;
 	gap: 32px;
 	align-items: flex-end;
@@ -182,7 +191,7 @@ text-transform: uppercase;
 
 .box-cub{
 	width: 378px;
-	height: 512px;
+	height: 473px;
 	background-color:#FFFFFF;
 	opacity: 1;
 	border-radius: 30px;
@@ -224,9 +233,9 @@ text-transform: uppercase;
 	font-size: 16px;
 	letter-spacing: 0px;
 	padding-top: 40px;
+	
 	}
 a{
-
 	color:#202027;
 	text-decoration: none;
 	font-family: Montserrat;
@@ -235,10 +244,8 @@ a{
 	font-size: 32px;
 	letter-spacing: 0px;
 	vertical-align: middle;
-	padding-top: 16px;
-
-
 }
+
 .box-game{padding-left: 48px;
     display: flex;
     width: 306px;
@@ -312,7 +319,8 @@ a{
     display: flex;
     flex-direction: row;
 }
-.card-content{width: 505px;
+.card-content{
+	width: 505px;
 	display: flex;
     padding: 48px 48px;
     flex-direction: column;
@@ -321,6 +329,28 @@ a{
 
 }
 
+.top-game{
+	
+	background-color:#202027;
+		opacity: 1;
+		border-radius: 60px;
+		padding: 16px 75px;
+		font-family: Montserrat;
+		font-weight: 600;
+		font-style: SemiBold;
+		font-size: 24px;
+		color: #FFFFFF;
+		line-height: 142%;
+		letter-spacing: 0%;
+		text-align: center;
+	cursor: pointer;
+	transition: 1.5s;
+
+}
+.top-game:hover{
+	color:black;
+	background-color:#FFFFFF;
+}
 .header-button{
 	margin-top: 48px;
 	background-color:#202027;
