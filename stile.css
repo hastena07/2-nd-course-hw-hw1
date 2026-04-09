@@ -75,7 +75,7 @@ select {
 	line-height: 100%;
 	letter-spacing: 0px;
 	vertical-align: middle;
-	padding-top: 196px;
+	padding-top: 45px;
 	padding-bottom: 24px;
 }
 .header-text{max-width: 720px;
@@ -394,8 +394,99 @@ a{
 	letter-spacing: 0px;
 	text-align: center;
 	vertical-align: middle;
-	padding: 61px 578px;
+	padding: 61px;
 }
+
+@media (max-width: 1024px){
+	.center {
+   		padding-left: 16px;
+   		 padding-right: 16px;
+ 	}
+	.top{
+		height: 700px;
+		position: relative;
+		
+	}
+	
+	.box-full {
+    	width: 100%;
+   	 	
+	}
+
+	.card-game {
+    display: flex;
+    gap: 32px;
+    row-gap: 0;
+	z-index: 1;
+
+	}
+	
+	.vector {
+		width: 400px;
+		height: 400px;
+    	position: absolute;
+    	right: 0;
+	}
+	.star-one {
+    	position: absolute;
+   		 width: 400px;
+   		 height: 500px;
+    	border-width: 1px;
+    	opacity: 1;
+    	top: 82px;
+    	right: 0;}
+	.star-for {
+        
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-width: 1px;
+        bottom: 150px;
+        right: 180px;
+    
+	}
+	.star-fife {
+    	position: absolute;
+    	width: 37px;
+    	height: 37px;
+    	border-width: 1px;
+    	opacity: 1;
+   		 bottom: 220px;
+    	right: 260px;
+	}
+	.smole-card{
+		position: relative;
+	}
+	.smole-card__text{
+		padding-bottom: 40px;
+	}
+	.up{
+		margin-top: 0;
+	}
+	.doWn{
+		z-index: 1;
+	}
+	.game-namber{
+		padding-top: 40px;
+	}
+	.game-name{
+		font-family: Montserrat;
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 32px;
+		line-height: 100%;
+		letter-spacing: 0px;
+		vertical-align: middle;
+
+
+	}
+	.box-cub {
+    width: 378px;
+    height: 551px;
+ }
+} 
+
+
 @media (max-width: 767px){
 
 	.center {
@@ -462,8 +553,8 @@ a{
 	}
 	
 	.star-two{
-		width: 35;
-		height: 35;
+		width: 35px;
+		height: 35px;
 		opacity: 1;
 		top: 97px;
 		left: 38px;
@@ -519,6 +610,17 @@ a{
     .smole-card{
 	 display: none;
     }
+	.game-name{
+		font-family: Montserrat;
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 32px;
+		line-height: 100%;
+		letter-spacing: 0px;
+		vertical-align: middle;
+
+
+	}
 	.big-card{
 		padding-bottom: 9px;
 	}
@@ -581,3 +683,4 @@ a{
 	}
 
 }
+
