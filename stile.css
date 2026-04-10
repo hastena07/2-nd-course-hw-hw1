@@ -86,7 +86,7 @@ select {
 	line-height: 32px;
 	letter-spacing: 0px;
 	vertical-align: middle;
-	margin-bottom: 48px;
+	margin-bottom: 52px;
 
 }
 
@@ -274,6 +274,7 @@ a{
 	padding-bottom: 144px;
 
 }
+
 .star-six{
 	position: absolute;
 	width: 68px;
@@ -340,7 +341,8 @@ a{
 
 }
 
-.top-game{
+.top-game,
+.card-play{
 	color: white;
 	background-color:#202027;
 	opacity: 1;
@@ -357,6 +359,10 @@ a{
 	transition: 1.5s;
 
 }
+.card-play{
+margin-top: 36px;
+}
+
 .top-game:hover{
 	color:black;
 	background-color:#FFFFFF;
@@ -503,7 +509,7 @@ a{
 		font-weight: 700;
 		font-style: Bold;
 		font-size: 40px;
-		line-height: 100%;
+		line-height: 50px;
 		letter-spacing: 0%;
 		text-align: center;
 		vertical-align: middle;
@@ -513,18 +519,19 @@ a{
 		font-weight: 400;
 		font-style: Regular;
 		font-size: 16px;
-		line-height: 100%;
+		line-height: 20px;
 		letter-spacing: 0px;
 		text-align: center;
 		vertical-align: middle;
-		margin-bottom: 36px;
+		margin-bottom: 52px;
 	 }
-    .top-game{padding: 16px 103px;
+    .top-game{
+		margin-left: 20px;
+		padding: 16px 103px;
 		font-family: Montserrat;
 		font-weight: 600;
 		font-style: SemiBold;
 		font-size: 16px;
-		margin-left: 25px;
 		line-height: 142%;
 		letter-spacing: 0%;
 		text-align: center;
@@ -553,6 +560,7 @@ a{
 	}
 	
 	.star-two{
+		position: absolute;
 		width: 35px;
 		height: 35px;
 		opacity: 1;
@@ -562,6 +570,7 @@ a{
 
 	}
 	.star-free{
+		position: absolute;
 		width: 21px;
 		height: 21px;
 		opacity: 1;
@@ -571,6 +580,7 @@ a{
 
 	}
 	.star-for{
+		
 		position: absolute;
 		width: 39px;
 		height: 41px;
@@ -580,9 +590,9 @@ a{
 		border-width: 1px;
 	}
 	.star-fife{
-		
-		width: 18;
-		height: 18;
+		position: absolute;
+		width: 18px;
+		height: 18px;
 		opacity: 1;
 		bottom: 125px;
 		right: 86px;
