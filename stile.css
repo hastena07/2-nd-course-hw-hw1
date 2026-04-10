@@ -526,7 +526,7 @@ margin-top: 36px;
 		margin-bottom: 52px;
 	 }
     .top-game{
-		margin-left: 20px;
+		margin-left:24px;
 		padding: 16px 103px;
 		font-family: Montserrat;
 		font-weight: 600;
@@ -538,6 +538,18 @@ margin-top: 36px;
 		color: white;
 
 	 }
+	 .card-play{
+		padding: 16px 110px;
+		font-family: Montserrat;
+		font-weight: 600;
+		font-style: SemiBold;
+		font-size: 16px;
+		line-height: 142%;
+		letter-spacing: 0%;
+		text-align: center;
+		color: white;
+	 }
+
 	 .vector,
 	 .star-one,
 	 .star-eleven,
@@ -655,8 +667,7 @@ margin-top: 36px;
 
 	}
 	.box-text{padding-top: 0;
-		padding-bottom: 32px;
-		width: 285px;
+				width: 285px;
 		font-family: Montserrat;
 		font-weight: 400;
 		font-size: 16px;
