@@ -56,10 +56,17 @@ console.log(checkEvenOrOdd(0));
 //Задание 3
 
 function printSquare(number) {
-  const result = number * number;
-  console.log(result);
+    const square = number * number;
+    console.log(square);
 }
-printSquare(7); 
+printSquare(9); 
+
+function getSquare(number) {
+    return number * number;
+}
+printSquare(6); 
+const result = getSquare(6);
+console.log(result); 
 
 //Задание 4
 
@@ -100,22 +107,19 @@ console.log(multiplyNumbers(null, 8));
 
 //Задание 6
 
-function cubeNumber() {
- 
-  const userInput = prompt("Введите число:");
+function cubeNumber(n) {
+    
+    const userNumber = Number(n);
 
-  const number = Number(userInput);
-
-  if (isNaN(number)) {
-    return 'Переданный параметр не является числом';
-  }
-
-  const result = number ** 3; 
-  return `n в кубе равняется ${result}`;
+    if (isNaN(userNumber)) {
+        return 'Переданный параметр не является числом';
+    }
+    const cube = userNumber ** 3;
+    return `${userNumber} в кубе равняется ${cube}`;
 }
 
 for (let i = 0; i <= 10; i++) {
-    console.log(`Тест с числом ${i}:`, cubeNumber.call(null, i));
+    console.log(cubeNumber(i));
 }
 
 //Задание 7
