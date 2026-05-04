@@ -257,7 +257,8 @@ a{
 	vertical-align: middle;
 }
 
-.box-game{padding-left: 48px;
+.box-game{
+	padding-left: 48px;
     display: flex;
     width: 306px;
     flex-direction: column;
