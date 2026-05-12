@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень, ножницы, бумага</title>
+    <style>
+        body { 
+            font-family: Montserrat, sans-serif;
+            max-width:600px;
+            margin: 50px auto; 
+            padding: 20px;  
+            background-color: black; 
+            
+            }
+        button {
+            color: white;
+            margin-top: 40px;
+            margin-bottom: 30px;
+	        background-color:#202027;
+	        opacity: 1;
+	        border-radius: 60px;
+	        padding: 16px 75px;
+	        font-family: Montserrat;
+	        font-weight: 600;
+	        font-style: SemiBold;
+	        font-size: 24px;
+	        line-height: 142%;
+	        letter-spacing: 0%;
+	        text-align: center;
+	        cursor: pointer;
+	        transition: 1.5s;
+        }
+        button:hover{
+	        color:black;
+	        background-color:#FFFFFF;
+}
+        #result { 
+            margin-top: 20px; 
+            font-size: 20px; 
+        }
+        .container {
+    color: rgb(0, 0, 0);
+	background-color:#ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-size: 20px;
+	line-height: 142%;
+	letter-spacing: 0%;
+	text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+     <h1>Камень, ножницы, бумага</h1>
+     <button onclick="playGame()">Играть</button>
+     <div id="result"></div>
+    </div>
+   
+   <script src="script9.js"></script>
+</body>
+</html>
