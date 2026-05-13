@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--Задание 2-->
+    <div>
+        <button class="btn-text">Кнопка</button>
+        <p1 class="text-info">Этот текст  при нажатии на кнопку становится другим цветом </p1> 
+
+    </div>
+   
+
+    <!--Задание 3-->
+    <div class="tasktwo">
+        <button class="btnchange">Изменить текст</button>
+        <p1 class="text-change">Этот текст  при нажатии на кнопку текст изменится </p1>
+    </div>
+    
+    <!--Задание 4-->
+    <div>
+        <h2>Заголовок</h2>
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+    </div>
+    <div>
+        <h2>Заголовок</h2>
+        <p class="description">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+    </div>
+    <div>
+        <h2>Заголовок</h2>
+        <p class="description">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+    </div>
+
+    <div>
+        <h2>Заголовок</h2>
+        <p class="description">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+    </div>
+
+     <!--Задание 5-->
+    <div class="fifth-task">
+         <div>
+            <h2>Задание 5</h2>
+            <p class="any-text">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+        </div>
+        <div>
+            <h2>Задание 5</h2>
+            <p class="description">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+        </div>
+        <div>
+             <h2>Задание 5</h2>
+            <p class="description">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+        </div>
+        <div>
+            <h2>Задание 5</h2>
+            <p class="any-text">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Adipisci 
+            vitae eveniet dicta odio perspiciatis esse 
+            repellat ullam soluta doloribus impedit. 
+           </p>
+        </div>
+    </div>
+   
+     <!--Задание 6-->
+    <div tasksix>
+        <button id="addBtn">Добавить элемент</button>
+    </div>
+       
+  
+        <!--Задание 7-->
+        <div>
+            <button id="btn-seven">Удалить</button>
+            <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, expedita.</p>
+            <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, expedita.</p>
+            <p class="teksttest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, expedita.</p>
+            <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, expedita.</p>
+             <p class="teksttest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, expedita.</p>
+        </div>
+        
+
+    <style>
+    .btn{
+        padding: 10px 30px;
+        margin-top: 50px;
+        margin-left: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+  h1{
+    margin-left: 40px;
+  }
+   .btn-text{
+            padding: 10px 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .text-info{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        .tasktwo{
+            margin-top: 200px;
+
+        }
+        .btnchange{
+            padding: 10px 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .text-change{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .fifth-task{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #addBtn,
+        #btn-seven{
+             padding: 10px 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .task-seven{
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+    </style>
+    <button class="btn">Кнопка</button>
+    <h1 class="header">Заголовок, который будет появляться 
+        или исчезать при нажатии на кнопку</h1>
+    
+    <script>
+        const headEl = document.querySelector('.header');
+        const btnEl = document.querySelector('.btn');
+        
+     btnEl.addEventListener('click', () => {
+       if (headEl.style.display === 'none') {
+       headEl.style.display = 'block';
+       btnEl.textContent = 'Скрыть';
+       } 
+      else {
+       headEl.style.display = 'none';
+       btnEl.textContent = 'Показать';
+       }
+      });
+        //задание 2
+        const headerInfo = document.querySelector('.text-info');
+        const btnTextInfo = document.querySelector('.btn-text');
+        
+        btnTextInfo.addEventListener('click',() => {
+        headerInfo.style.color = 'red';
+        });
+        headerInfo.addEventListener('click', () => {
+         headerInfo.style.color = 'black';
+        });
+
+        //задание 3
+        const textChange = document.querySelector('.text-change');
+        const btnChange = document.querySelector('.btnchange');
+       
+        btnChange.addEventListener('click',() => {
+         textChange.textContent = 'Привет, мир!';
+        });
+        
+        //задание 4
+        const paragraph = document.querySelectorAll('.description');
+        paragraph.forEach((element) => {
+        element.textContent = 'Измененный текст';
+        });
+
+        //Задание 5
+         const paragraphs = document.querySelectorAll('.description');
+        paragraphs.forEach((element) => {
+        element.textContent = 'Новый текст';
+        });
+        
+        //задание 6
+           
+       const button = document.getElementById('addBtn');
+       button.addEventListener('click', function() {
+       const newParagraph = document.createElement('p');
+       newParagraph.textContent = 'Новый параграф, который добавляется каждый раз при нажатии на кнопку "Добавить элемент"';
+      document.body.appendChild(newParagraph);
+      });
+
+      //задание 7
+        const btnSeven = document.getElementById('btn-seven');
+        btnSeven.addEventListener('click', function() {
+        const firstDescription = document.querySelector('.descriptions');
+        if (firstDescription) {
+        firstDescription.remove();
+        }
+        });
+    </script>
+</body>
+</html>
