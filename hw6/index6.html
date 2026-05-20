@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+  <title>Простая арифметика</title>
+  <style>
+    body{
+      background-color: black; 
+    }
+    .conteiner 
+       { 
+      font-family: Montserrat,sans-serif; 
+      color: rgb(8, 8, 8);
+      background-color: #fcfcfd;
+      max-width:600px;
+      margin: 50px auto; 
+      padding: 20px;
+      border: 1px solid #ccc;
+     border-radius: 8px; }
+    #task { 
+      font-size: 24px;
+      margin: 20px 0; }
+    input { 
+      width: 80%;
+      padding: 8px; 
+      margin: 10px 0;
+      border-radius: 8px; 
+    }
+    button {
+     margin-top: 30px;
+     color: white;
+	   background-color:#202027;
+	   opacity: 1;
+	   border-radius: 60px;
+	   padding: 16px 75px;
+	   font-family: Montserrat;
+	   font-weight: 600;
+	   font-style: SemiBold;
+	   font-size: 24px;
+	   line-height: 142%;
+	   letter-spacing: 0%;
+	   text-align: center;
+	   cursor: pointer;
+	   transition: 1.5s;
+     }
+  button:hover{
+	  color:black;
+	  background-color:#FFFFFF;
+  }
+  #result { 
+   margin-top: 20px;
+   font-size: 18px; }
+  a {
+    margin-left: 200px;
+    color: #202027;
+    text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div class="conteiner">
+  <h1>Простая арифмерика</h1>
+  <div id="task"></div>
+
+  <input type="number" id="answer" placeholder="Ваш ответ">
+  <button onclick="checkAnswer()">Проверить</button>
+
+  <div id="result"></div>
+  <a class="retern" href=" ../index.html">Вернуться на главную</a>
+
+</div>
+  
+  <script src="script6.js"></script>
+</body>

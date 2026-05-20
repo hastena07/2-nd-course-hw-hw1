@@ -2,15 +2,15 @@
    font-family:Montserrat, sans-serif;
     text-align: center; 
     margin-top: 50px;
-    background-color: rgb(247, 246, 246);
+    background-color: rgb(2, 2, 2);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
  .container {
-    color: white;
-	background-color:#202027;
+    color: rgb(0, 0, 0);
+	background-color:#f9f9fc;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -21,4 +21,9 @@
 }
  h2 {   
     margin-bottom: 20px;  
+}
+a {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
 }

@@ -1,0 +1,49 @@
+ body{
+      background-color: #202027;
+    }
+    .conteiner { 
+      font-family: Montserrat,sans-serif; 
+      color: rgb(8, 8, 8);
+      background-color: #fcfcfd;
+      max-width:600px;
+      margin: 50px auto; 
+      padding: 20px;
+      border: 1px solid #ccc;
+     border-radius: 8px; }
+    h1 { text-align: center; }
+    input[type="number"] { 
+      width: 80%;
+      padding: 8px; 
+      margin: 10px 0;
+      border-radius: 8px; }
+    button {
+     margin-top: 30px;
+     color: white;
+	   background-color:#202027;
+	   opacity: 1;
+	   border-radius: 60px;
+	   padding: 16px 75px;
+	   font-family: Montserrat;
+	   font-weight: 600;
+	   font-style: SemiBold;
+	   font-size: 24px;
+	   line-height: 142%;
+	   letter-spacing: 0%;
+	   text-align: center;
+	   cursor: pointer;
+	   transition: 1.5s;
+     }
+    button:hover{
+	   color:black;
+	   background-color:#FFFFFF;
+    }
+    #message {
+       margin-top: 30px;
+       font-weight: bold; 
+       color: #333; }
+      a {
+        margin-left: 200px;
+        color: #202027;
+        text-decoration: none;
+       }
+       
