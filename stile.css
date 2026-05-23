@@ -12,7 +12,7 @@ body {
 
 }
 .animation{
-	width: 94%;
+	
 	overflow: hidden;
 	display: flex;
 	background-color: #BCEC30;
@@ -219,7 +219,7 @@ select {
 }
 
 .box-cub{
-	width: 378px;
+	width: 100%;
 	height: 473px;
 	background-color:#FFFFFF;
 	opacity: 1;
@@ -282,7 +282,7 @@ a{
 }
 
 .box-game{
-	padding-left: 48px;
+	padding-left: 32px;
     display: flex;
     width: 306px;
     flex-direction: column;
@@ -357,7 +357,7 @@ a{
     flex-direction: row;
 }
 .card-content{
-	width: 505px;
+	width: 100%;
 	display: flex;
     padding: 48px 48px;
     flex-direction: column;
@@ -438,45 +438,30 @@ margin-top: 36px;
 		position: relative;
 		
 	}
-	.animation{
-	width: 95%;
-	overflow: hidden;
-	display: flex;
-	background-color: #BCEC30;
-	top: 649px;
-	left: -30px;
-	border-width: 1px;
-	padding-top: 26px;
-	padding-right: 24px;
-	padding-bottom: 16px;
-	padding-left: 24px;
-	gap: 6px;
-}
-.scroll-content {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  gap: 51px; 
-  padding: 5px 0;
-  animation: scroll-left 12s linear infinite;
-  white-space: nowrap; 
-}
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%); 
-  }
-}
+	.box-game {
+    	padding-left: 22px;
+    	display: flex;
+    	width: 306px;
+    	flex-direction: column;
+    	align-items: flex-start;
+	}
+	.game-box{
+		width: 300px;
+	}
 	.box-full {
+		height: 380px;
     	display: flex;
         width: 100%;
         justify-content: space-between;
    	 	
 	}
+	.card-img {
+		width: 405px;
+    	opacity: 1;
+    	border-radius: 30px;
+	}
   .card-content{
-	padding: 48px 30px;
+	padding: 20px 30px;
    }
 	.card-game {
       display: flex;
@@ -484,16 +469,19 @@ margin-top: 36px;
       row-gap: 0;
 	  z-index: 1;
 	}
+	.card-play {
+    margin-top: 30px;
+}
     .box-name {
         width: 100%;
         font-family: Montserrat;
         font-weight: 700;
         font-style: Bold;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
         letter-spacing: 0px;
         vertical-align: middle;
-        padding-bottom: 16px;
+        
     }
 	.vector {
 		width: 400px;
@@ -515,8 +503,8 @@ margin-top: 36px;
         width: 50px;
         height: 50px;
         border-width: 1px;
-        bottom: 150px;
-        right: 180px;
+        bottom: 60px;
+        right: 100px;
     
 	}
 	.star-fife {
@@ -525,8 +513,8 @@ margin-top: 36px;
     	height: 37px;
     	border-width: 1px;
     	opacity: 1;
-   		 bottom: 220px;
-    	right: 260px;
+   		 bottom: 120px;
+    	right: 170px;
 	}
 	.smole-card{
 		position: relative;
@@ -547,7 +535,7 @@ margin-top: 36px;
 		font-family: Montserrat;
 		font-weight: 700;
 		font-style: Bold;
-		font-size: 32px;
+		font-size: 26px;
 		line-height: 100%;
 		letter-spacing: 0px;
 		vertical-align: middle;
@@ -555,15 +543,18 @@ margin-top: 36px;
 
 	}
 	.box-cub {
-    width: 378px;
+    width: 350px;
     height: 551px;
+ }
+ .img-box{
+	width: 100%;
  }
 } 
 
 
 @media (max-width: 767px){
 .animation{
-	width: 87%;
+	width: 100%;
 	overflow: hidden;
 	display: flex;
 	background-color: #BCEC30;
@@ -745,11 +736,38 @@ margin-top: 36px;
 	.big-card{
 		padding-bottom: 9px;
 	}
+	.box-name{
+		font-family: Montserrat;
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 32px;
+		line-height: 100%;
+		letter-spacing: 0px;
+		vertical-align: middle;
+
+	}
+	.box-text{
+		font-family: Montserrat;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 16px;
+		line-height: 100%;
+		letter-spacing: 0px;
+		vertical-align: middle;
+
+	}
+
+ 
 	.box-full{
 		display: flex;
 		flex-direction: column;
-		width: 343px;
+		width: 100%;
+		height: 100%;
 	}
+	.card-img {
+		width: 100%;
+    	opacity: 1;
+    	border-radius: 30px;}
 	.card-content{
 		padding: 29px;
 		width: 285px;}
