@@ -12,7 +12,6 @@ body {
 
 }
 .animation{
-	
 	overflow: hidden;
 	display: flex;
 	background-color: #BCEC30;
@@ -554,7 +553,6 @@ margin-top: 36px;
 
 @media (max-width: 767px){
 .animation{
-	width: 100%;
 	overflow: hidden;
 	display: flex;
 	background-color: #BCEC30;
